@@ -3,7 +3,7 @@ use crossterm::event::{KeyCode, KeyEvent, KeyModifiers, MouseEvent};
 use ratatui::layout::{Constraint, Layout, Position, Rect};
 use ratatui::Frame;
 
-use crate::commands::Command;
+use crate::ui::commands::Command;
 use crate::event::Event;
 use crate::ui::{table::CommandsTable, state::UIComponent, search::SearchBox, template::Template};
 

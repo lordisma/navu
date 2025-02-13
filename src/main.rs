@@ -12,9 +12,11 @@ pub mod app;
 pub mod event;
 pub mod tui;
 pub mod ui;
-pub mod commands;
-pub mod search;
 pub mod error;
+pub mod search;
+pub mod table;
+
+pub(crate) mod fuzzy;
 
 #[tokio::main]
 async fn main() -> AppResult<()> {
